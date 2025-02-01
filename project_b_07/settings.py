@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-l*9n_c(uqsb7s3rus2c#y)-2wsvch2=%6uv_=eiuwn1l6!2m_w'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -62,7 +62,6 @@ SOCIALACCOUNT_PROVIDERS = {
         "AUTH_PARAMS":{"access_type": "online"},
         "APP": {
             "client_id": "579023685160-rruritlvjko2ru9fq52532j0mc0ibg5j.apps.googleusercontent.com",
-            "secret": "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",
             "key": ""
         }
     }
